@@ -1,0 +1,53 @@
+body {
+	font-family: 'Lato';
+}
+
+a {
+	text-decoration-style: dotted;
+	color: green;
+}
+
+h1 {
+	margin: 25px;
+	text-align: center;
+}
+
+.title {
+	color: green;
+	font-size: 15pt;
+}
+
+div.inline {
+	float: left;
+}
+
+#recipeButtons .inline {
+	text-align: center;
+	padding: 25px;
+	margin: 25px;
+}
+
+#recipes .inline {
+	text-align: left;
+	padding: 10px;
+	margin: 10px;
+}
+
+.clearBoth {
+	clear: both;
+}
+
+#recipeButtons {
+	margin-left: 450px;
+}
+
+#recipes {
+	margin-left: 400px;
+}
+
+.truncate {
+  width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
